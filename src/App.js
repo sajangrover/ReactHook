@@ -2,7 +2,8 @@ import React from 'react';
 //import HookCounter3 from './components/HOOKS/HookCounter3';
 //import HookCounter4 from './components/HOOKS/HookCounter4';
 //import HookMouse from './components/HOOKS/HookMouse';
-import MouseContainer from './components/HOOKS/MouseContainer';
+//import MouseContainer from './components/HOOKS/MouseContainer';
+import DataFetching from './components/HOOKS/DataFetching';
 //import { UserProvider } from './components/Context/UserContext';
 //import ComponentA from './components/Context/ComponentA';
 //import HookCounter from './components/HOOKS/HookCounter';
@@ -31,7 +32,8 @@ function App() {
       {/*<HookCounter3/>*/}
       {/*<HookCounter4/>*/}
       {/*<HookMouse/>*/}
-      <MouseContainer/>
+      {/*<MouseContainer/>*/}
+      <DataFetching/>
     </div>
   );
 }
